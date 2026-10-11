@@ -1,0 +1,31 @@
+
+Essay Feedback
+Homework Assignment #1
+CMSI 4071 Fall 2026
+======================
+
+SUMMARY:
+
+
+RELATION TO S/W ENGINEERING
+
+
+THOUGHTS/OPINIONS
+
+
+SPELLING/GRAMMAR
+
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Summary of article                   0
+   Relation to S/W engineering          0
+   Thoughts/opinions presented          0
+   Spelling/Grammar                     0
+                                     -----
+   Subtotal                             0
+   ------------------------------------------------------
+   Total Percentage:   0 out of 100 = 0% which is an F on this assignment
+
+Not attempted and/or not turned in by the due date.
+
