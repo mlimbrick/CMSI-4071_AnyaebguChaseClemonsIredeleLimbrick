@@ -1,0 +1,41 @@
+CMSI 4071 Fall 2026
+Project Proposal Feedback
+Project: Campu Marketplace
+=========================
+Guideline Requirement                        Status
+-------------------------------     ----------------------------
+High-level overview                 Meets or Exceeds Requirement
+Comparison to existing software     Meets or Exceeds Requirement
+Important features listed           Meets or Exceeds Requirement
+Hardware/software Requirements      Meets or Exceeds Requirement
+End users identified                Meets or Exceeds Requirement
+Maintenance discussed               Meets or Exceeds Requirement
+Applies prior learning              Meets or Exceeds Requirement
+Extends prior learning              Meets or Exceeds Requirement
+Appropriate difficulty              Meets or Exceeds Requirement
+Feasible in one semester            Meets or Exceeds Requirement
+Required skills/tools available     Meets or Exceeds Requirement
+Interest and motivation             Meets or Exceeds Requirement
+
+
+Summary:
+--------
+Overall Assessment
+Your proposal document fully satisfies the written Proposal Document
+requirements described in the CMSI 4071 Proposal Guidelines.  The proposal
+includes all the required elements of both the verbal description and
+justification sections and explicitly addresses each evaluation criterion
+identified in the guidelines.
+
+Guideline-Based Recommendation
+No guideline-related additions are necessary.  The proposal appears complete
+with respect to the written proposal requirements and provides coverage of
+every required category identified on the course proposal page.
+
+Nice work on the presentation as well, but try to rely a bit less on your
+phones and tablets for prompting.  Practice beforehand and speak from your
+head knowledge ~ you are the experts about your project!
+
+Full 5% for this deliverable.
+
+Nice job overall!  Keep up the good work.

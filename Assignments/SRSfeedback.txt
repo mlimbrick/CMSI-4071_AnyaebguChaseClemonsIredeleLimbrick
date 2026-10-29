@@ -1,0 +1,135 @@
+
+Documentation Feedback ~ Deliverable #2
+Software Requirements Specification
+Initial Development Schedule
+CMSI 4071 Fall 2026
+=======================================
+
+COMPONENT BREAKDOWN:
+   Assessment: VERY GOOD
+      The component breakdown is well structured and follows a logical
+      layered architecture:
+         * Client Application CSC
+         * Marketplace API CSC
+         * Data and Storage CSC
+         * Platform Services CSC
+      Each CSC is further decomposed into implementable CSUs with clearly
+      defined responsibilities. The decomposition supports separation of
+      concerns and aligns well with the planned technology stack.
+   Completeness Analysis
+      The decomposition adequately identifies presentation, business logic,
+      data persistence, and operational-service concerns. Most major business
+      functions are accounted for, including authentication, discovery,
+      booking, reviews, moderation, storage, backup, and monitoring.
+   Areas Missing or Underdeveloped
+      * Notification services exist as a CSU but are not represented as a
+         distinct deployable component.
+      * Media management appears only as a storage responsibility and lacks a
+         dedicated processing or content-management component.
+   Suggestions for Improvement
+      * Add an External Services CSC or CSU that formally identifies email,
+         authentication, and cloud-service integrations.
+      * Add interface specifications describing the inputs, outputs, and
+         dependencies between the Client Application, API, Storage, and
+         Platform Services CSCs.
+
+FUNCTIONAL REQUIREMENTS:
+   Assessment: EXCELLENT
+      The functional requirements section is comprehensive and represents the
+      strongest part of the specification. Requirements cover:
+         * Registration and authentication
+         * Discovery and search
+         * Vendor management
+         * Availability and booking
+         * Reviews and moderation
+         * Notifications
+         * Data persistence
+         * Operational services
+      Requirements are specific, atomic, uniquely identified, and generally
+      easy to verify. Most user workflows have corresponding requirements.
+   Completeness Analysis
+      The functional coverage appears sufficient for the project's stated MVP.
+      The requirements address both successful and unsuccessful conditions,
+      including invalid login attempts, duplicate accounts, rejected
+      bookings, moderation actions, and account deletion.
+   Areas Missing or Underdeveloped
+      * Privacy controls are mentioned indirectly but not specified in detail.
+      * Security behavior beyond authentication receives limited coverage.
+      * Audit requirements beyond moderation activities are minimal.
+      * Administrative reporting features are not described.
+   Suggestions for Improvement
+      * Add functional requirements governing privacy preferences, user
+         consent, data-retention periods, and account-recovery procedures.
+      * Add administrative reporting requirements for marketplace activity,
+         abuse trends, user growth, and booking statistics.
+
+PERFORMANCE REQUIREMENTS:
+   Assessment: VERY GOOD
+      The performance requirements are measurable, realistic, and generally
+      well aligned with the project's expected scale. Examples include:
+         * Initial page load times
+         * API response times
+         * Search response times
+         * Concurrent-user support
+         * Backup frequency
+         * Recovery metrics
+         * Availability targets
+         * Security-related operational constraints
+   Completeness Analysis
+      The section covers responsiveness, availability, recovery,
+      accessibility, browser compatibility, booking integrity, and operational
+      security. Most requirements contain quantifiable thresholds suitable for
+      acceptance testing.
+   Areas Missing or Underdeveloped
+      * Resource-utilization limits are not defined.
+      * Scalability goals beyond 100 simultaneous users are absent.
+      * Notification-delivery reliability is not specified.
+      * Performance degradation behavior under overload is unspecified.
+   Suggestions for Improvement
+      * Add memory, storage, CPU-utilization, and database-growth
+         requirements to better define operational boundaries.
+      * Add scalability requirements describing acceptable service behavior
+         beyond the reference load, including overload handling and graceful
+         degradation.
+
+ENVIRONMENT REQUIREMENTS:
+   Assessment: EXCELLENT
+      The environmental requirements are unusually complete for a student
+      project. The document clearly separates development and execution
+      environments while identifying hardware, software, cloud services,
+      network requirements, testing tools, deployment platforms, databases,
+      authentication services, storage services, and monitoring services.
+   Completeness Analysis
+      The section provides enough information to recreate both the
+      development and deployment environments. It also defines acceptable
+      service substitutions and identifies the technologies required for
+      implementation and testing.
+   Areas Missing or Underdeveloped
+      * Specific version constraints are not defined.
+      * Geographic or regulatory deployment constraints are not discussed.
+      * Browser support is defined at a high level but lacks version numbers.
+      * Backup-retention requirements are not specified.
+   Suggestions for Improvement
+      * Specify minimum supported versions for Node.js, Python,
+         PostgreSQL, browsers, and major cloud-service dependencies.
+      * Add operational requirements for backup retention, log retention,
+         monitoring alert thresholds, and disaster-recovery procedures.
+
+OVERALL ASSESSMENT:
+   Category                          Points
+   Component Breakdown                 1/1
+   Functional Requirements             4/4
+   Performance Requirements            2/2
+   Environment Requirements            1/1
+                                     =====
+   Subtotal                            8/8
+   Preliminary Schedule                2/2
+   ------------------------------------------------------
+   Total Percentage:   10/10 = 100% which is an A-plus
+
+OVERALL ASSESSMENT:
+   This is a strong Waterfall SRS and is among the more complete student
+   requirements specifications. The component decomposition is logical and
+   traceable, the functional requirements are thorough and testable, the
+   performance requirements are measurable, and the environmental
+   requirements provide sufficient implementation guidance.
