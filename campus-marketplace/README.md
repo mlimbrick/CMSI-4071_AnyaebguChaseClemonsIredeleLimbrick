@@ -1,6 +1,4 @@
-# Campus Marketplace — Week 9 Prototype
-
-A runnable full-stack student marketplace based on the CMSI 4071 Week 9 project scope.
+# Campus Marketplace
 
 ## Features
 - Responsive customer storefront with search, category filters, campus filters, and listing details
