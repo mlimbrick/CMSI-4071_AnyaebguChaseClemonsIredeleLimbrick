@@ -1,0 +1,112 @@
+
+Documentation Feedback ~ Deliverable #4
+Software Design Document ~ Architecture
+CMSI 4071 Fall 2026
+=======================================
+
+INTRODUCTION SECTION:
+   System objectives section
+      Strengths
+         Objectives are understandable and user focused.
+         Good discussion of marketplace trust.
+         Architectural maintainability is considered.
+         Deployment portability is considered.
+      Suggestions
+         Objectives should explicitly address booking workflows,
+            notifications, moderation, and reviews because they are
+            required by the SRS.
+         The security objective should include account verification rather
+            than solely .edu format validation.
+         Administrative objectives should be represented.
+
+   Hardware, software, and human interfaces section
+      Strengths
+         Very complete addressing of all major listed components.
+         Complete treatment of user-facing interfaces.
+         Hardware interfaces are clearly identified.
+         Software dependencies are documented.
+         Human-interface descriptions are detailed.
+         Interface numbering is consistent.
+      Suggestions
+         Include cloud services specified in the requirements.
+         Include identity service interfaces.
+         Include notification-service interfaces.
+         Include object-storage interfaces.
+         Include monitoring and operational-service interfaces.
+
+ARCHITECTURAL DESIGN SECTION:
+   Major software components section
+      Strengths
+         Components are understandable.
+         Responsibilities are generally well separated.
+         Requirement mapping is easy to read.
+         The presentation CSC is well-defined with good screen separation.
+      Suggestions
+         The requirement mapping uses FR-1 through FR-8 rather than the
+            actual CSC and requirement hierarchy from the SRS.
+         Many required functions have no mapped implementation.
+         Missing administrator interfaces from presentation CSC.
+         Missing booking interfaces from presentation CSC.
+         Client Services CSC does not exist in the SRS.
+         Required API functions for bookings, reviews, notifications,
+            moderation, reporting, and administration are missing.
+         The Security CSC does not exist in the SRS.
+
+   Major software interactions section
+      Strengths
+         Table format is effective.
+         Interactions are easy to understand.
+         Interaction mechanisms are realistic.
+      Suggestions
+         Additional interactions are needed for bookings, moderation,
+            notifications, storage, and email services.
+
+   Architectural design diagrams section
+      Strengths
+         Appropriate architectural viewpoints are included.
+         Four-view approach aligns well with expectations.
+         Diagrams support the architecture effectively.
+      Suggestions
+         Diagrams should reflect the complete required system rather than
+            the reduced prototype scope.
+
+
+OVERALL ASSESSMENT:
+   Category                            Points
+   -----------------------------       ------
+   INTRODUCTION:
+      System objectives                1 of 1
+      H/W, S/W, Human I/F              2 of 2
+
+   ARCHITECTURAL DESIGN SECTION:
+      Major software components        1 of 2
+      Major software interactions      1 of 2
+      Architectural design diagrams    3 of 3
+                                       ======
+                                            8
+   ------------------------------------------------------
+   Total Percentage:  8/10 = 80% which is a B
+
+COMMENTS:
+The architectural SDD is well written, easy to follow, and provides a
+coherent layered architecture.  The document demonstrates good architectural
+thinking through separation of concerns, clear component responsibilities,
+explicit interface descriptions, and appropriate architectural diagrams.
+However, there are significant consistency gaps between the SRS and the SDD.
+The SRS defines a substantially larger system that includes booking,
+reviews, notifications, moderation, administrator functions, email
+verification, platform services, cloud deployment, object storage, and
+operational infrastructure.  The SDD narrows the scope considerably and
+documents a simpler prototype architecture.  As a result, many required
+CSCs, functions, and performance goals are not represented architecturally.
+
+The document demonstrates solid architectural skills, clear writing, good
+decomposition, and useful diagrams.  The architecture itself is reasonable
+for the functionality it includes.  The largest issue is scope mismatch.
+The SRS defines a much larger system, but Tte SDD documents only a subset
+of the SRS capabilities.
+
+Overall Rating: Adequate Architectural Design for a Prototype, but not yet
+adequate for the Full Required System
+
+
